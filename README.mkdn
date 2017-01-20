@@ -1,4 +1,4 @@
-vbajs's modded LineageOS
+Vbajs's Moddified LineageOS
 ===========
 
 About
@@ -8,9 +8,10 @@ This is my modified verison of LineageOS, The idea of the mod to deliver what mo
 Here is the feature list as simple as it gets :-
 * Replace LAOS's setup wizard with AOSP's setup wizard (Because LAOS'S one forces copy from device)
 * Add OMS support
-* Add Google Assistant (Gonna give credits to AOSiP for that one)
+* Add Google Assistant (Gonna give credits to AOSiP OR Oct-N for that one)
 * Add DUI (Gonna give credits to Dirty unicorns for that one)
-* Make a unofficial LAOS Boot Animation (this one is gonna take time) 
+* Make a unofficial LAOS Boot Animation (this one is gonna take time)
+* Replace CMSU with SuperSU
 
 Getting Started
 ---------------
@@ -20,7 +21,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 
-    repo init -u https://github.com/vbajs/LOS-MOD_Mainfest.git -b cm-14.1
+    repo init -u https://github.com/VMLOS/manifest
 
 Then to sync up:
 
