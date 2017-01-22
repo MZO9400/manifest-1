@@ -1,31 +1,31 @@
-Vbajs's Moddified LineageOS
+SnakeOS
 ===========
 
 About
 -----
 
-This is my modified verison of LineageOS, The idea of the mod to deliver what most people want AND not breaking Team Lineage's idea of the rom
+This is ROM based on LineageOS, The idea of the mod to deliver what most people want AND not breaking Team Lineage's idea of their ROM
 Here is the feature list as simple as it gets :-
 * Replace LAOS's setup wizard with AOSP's setup wizard (Because LAOS'S one forces copy from device)
 * Add OMS support
 * Add Google Assistant (Gonna give credits to AOSiP OR Oct-N for that one)
 * Add DUI (Gonna give credits to Dirty unicorns for that one)
-* Make a unofficial LAOS Boot Animation (this one is gonna take time)
+* Make a AOSSP Boot Animation (this one is gonna take time)
 * Replace CMSU with SuperSU
 
 Getting Started
 ---------------
 
-To get started with Android/LineageOS, you'll need to get
+To get started with Android/SnakeOS, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository using the SnakeOS trees, use a command like this:
 
-    repo init -u https://github.com/VMLOS/manifest
+    repo init -u https://github.com/AOSSP/manifest.git -b Nougat
 
 Then to sync up:
 
-    repo sync --force-sync --force-broken
+    repo sync -cj4 --force-sync --force-broken
 
-Please see the [LineageOS Wiki](http://wiki.lineageos.org/) for building instructions.
+Please see [AOSP's Tutorial](https://source.android.com/source/initializing.html) on how to setup a build environment
 

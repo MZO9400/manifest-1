@@ -13,8 +13,8 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.1_r9" />
 
-  <remote  name="vbajs"
-           fetch="https://github.com/VMLOS" />
+  <remote  name="snake"
+           fetch="https://github.com/AOSSP" />
 
   <default revision="refs/heads/cm-14.1"
            remote="github"
@@ -403,7 +403,7 @@
   <project path="packages/apps/PhoneCommon" name="LineageOS/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="vbajs" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="snake" />
   <project path="packages/apps/SoundRecorder" name="LineageOS/android_packages_apps_SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" />
@@ -490,7 +490,7 @@
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" remote="aosp" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
-  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="vbajs" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="snake" />
   <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
   <project path="system/update_engine" name="platform/system/update_engine" remote="aosp" />
@@ -511,6 +511,6 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
-  <include name="snippets/cm.xml" />
+  <include name="snippets/cm-extras.xml" />
 
 </manifest>
