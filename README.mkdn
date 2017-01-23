@@ -6,7 +6,7 @@ About
 
 This is ROM based on LineageOS, The idea of the mod to deliver what most people want AND not breaking Team Lineage's idea of their ROM
 Here is the feature list as simple as it gets :-
-* Replace LAOS's setup wizard with AOSP's setup wizard (Because LAOS'S one forces copy from device)
+* Replace LAOS's setup wizard with AOSP's setup wizard (Because LAOS' one forces copy from device)
 * Add OMS support
 * Add Google Assistant (Gonna give credits to AOSiP OR Oct-N for that one)
 * Add DUI (Gonna give credits to Dirty unicorns for that one)
